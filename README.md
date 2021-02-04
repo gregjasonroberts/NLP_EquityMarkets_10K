@@ -19,12 +19,18 @@ Applying NLP framework to study intrinsic risk associated with 10K filings risk 
 
 ### Code and Resources Used
 Python Version: 3.7  
+edgar Version: edgar 5.4.1
 Environment: Google Colab, Atom IDE, Jupyter notebook 
 
 Packages: pandas, numpy, statsmodels, sklearn, matplotlib, keras  
 
 ### Data Cleaning
-* 
+* Scraped the wiki with BeautifulSoup for the S&P companies, tickers, CIK identifier and GICS Sector information - site: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+* Read the wiki html table into a pandas dataframe
+* Reformat CIK identifier to a readable version for the sec-edgar scrapping module
+* Create a dictionary for the company name and respective CIK code in order to correctly iterate through the edgar module parameters.
+* Parsed the text scrapped from edgar library and used regex to find sections of the financial statements pertaining to the Risk Factors(1A)
+* Returned just the spanned text from section 1A and where files were not formatted correctly or the document version was an ammendment and that section didn't exist, the company was pulled from the dataset.  
 
 ### EDA
 Below are a few highlights:
@@ -34,7 +40,10 @@ Below are a few highlights:
 
 
 ### Model Building
-
+* Grouped the dataset by the datapoints per year for each stock
+* Tokenize and stemmed each token from the document to find the YoY change with spaCy
+* Used TfidfVectorizer and applied a financial dictionary derived using the Loughran-McDonald lexicon, which assigns a positive or negative value to words based on the financial services industry context
+* Applied cosine similarity on the TDIF vectorized dataset for the yearly comparison for each respective company's parsed 10K filing.
 
 ### Model Performance
 ![alt text](images/sector_return_curve.png)
