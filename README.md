@@ -11,7 +11,7 @@ Applying NLP framework to study intrinsic risk associated with 10K filings risk 
 * The respective financial statements are scrapped for financial terms and analyzed for sentiment.
 * The sentiment is placed into a list using a bag of words approach and analyzed screened for "negative" term frequency as found in it's annual 10K filings.
 * The respective change in a firms' “riskiness” of its business and/or industry is calculated with TF-IDF (term frequency inverse document frequency) for negative language(as per financial dictionaries applied from University research settings).  The cosine symmetry between each firm's corpus of 10K filing negative terms is calculated for each respective year and sorted for relative risk.
-* This analysis utilized research in textual analysis for financial applications and data provided by the Accounting and Finance dept at the University of Notre Dame.  
+* This analysis utilized research in textual analysis for financial applications and data provided by Loughran-McDonald lexicon[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1331573], which assigns a value to words based on the financial services industry context.  
 * In this analysis, I reviewed the S&P 500 companies and sought to uncover unique risk profiles for each company and its respective GICS sector. 
 * The end-use is designed to provide alpha application by assessing intrinsic risk, some of which may be underappreciated by the market.  
 * In further analysis, I will look to see where this can add value as a factor in pricing options, particularly in comparing implied vols and historic volatility.
@@ -22,7 +22,7 @@ Python Version: 3.7
 edgar Version: edgar 5.4.1
 Environment: Google Colab, Atom IDE, Jupyter notebook 
 
-Packages: pandas, numpy, statsmodels, sklearn, matplotlib, keras  
+Packages: pandas, numpy, statsmodels, sklearn, matplotlib, NLTK, spaCy, beautifulsoup, edga, yfinance 
 
 ### Data Cleaning
 * Scraped the wiki with BeautifulSoup for the S&P companies, tickers, CIK identifier and GICS Sector information - site: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
