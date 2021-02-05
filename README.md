@@ -42,10 +42,11 @@ Below are a few highlights:
 ### Model Building
 * Grouped the dataset by the datapoints per year for each stock
 * Tokenize and stemmed each token from the document to find the YoY change with spaCy
-* Used TfidfVectorizer and applied a financial dictionary derived using the Loughran-McDonald lexicon, which assigns a positive or negative value to words based on the financial services industry context
+* Used TfidfVectorizer and applied a financial dictionary derived using the Loughran-McDonald dictionary.
 * Applied cosine similarity on the TDIF vectorized dataset for the yearly comparison for each respective company's parsed 10K filing.
 
 ### Model Performance
+The cumulative return of the long non-negative changing sentiment firms and short the increased negative sentiment changing firms was nearly 10% over the 5-year investment horizon.
 ![alt text](images/sector_return_curve.png)
 
 
