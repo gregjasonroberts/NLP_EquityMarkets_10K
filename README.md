@@ -20,6 +20,7 @@ Applying NLP framework to study intrinsic risk associated with 10K filings risk 
 ### Code and Resources Used
 Python Version: 3.7  
 edgar Version: edgar 5.4.1
+
 Environment: Google Colab, Atom IDE, Jupyter notebook 
 
 Packages: pandas, numpy, statsmodels, sklearn, matplotlib, NLTK, spaCy, beautifulsoup, edgar, yfinance 
@@ -41,7 +42,7 @@ Below are a few highlights:
 
 ### Model Building
 * Grouped the dataset by the datapoints per year for each stock
-* Tokenize and stemmed each token from the document to find the YoY change with spaCy
+* Tokenized and stemmed each token from the document to find the YoY change with spaCy
 * Used TfidfVectorizer and applied a financial dictionary derived using the Loughran-McDonald dictionary.
 * Applied cosine similarity on the TDIF vectorized dataset for the yearly comparison for each respective company's parsed 10K filing.
 
