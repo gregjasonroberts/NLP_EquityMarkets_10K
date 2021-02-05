@@ -22,10 +22,10 @@ Python Version: 3.7
 edgar Version: edgar 5.4.1
 Environment: Google Colab, Atom IDE, Jupyter notebook 
 
-Packages: pandas, numpy, statsmodels, sklearn, matplotlib, NLTK, spaCy, beautifulsoup, edga, yfinance 
+Packages: pandas, numpy, statsmodels, sklearn, matplotlib, NLTK, spaCy, beautifulsoup, edgar, yfinance 
 
 ### Data Cleaning
-* Scraped the wiki with BeautifulSoup for the S&P companies, tickers, CIK identifier and GICS Sector information - site: https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+* Scraped the wiki with BeautifulSoup for the S&P companies, tickers, CIK identifier and GICS Sector information - [List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
 * Read the wiki html table into a pandas dataframe
 * Reformat CIK identifier to a readable version for the sec-edgar scrapping module
 * Create a dictionary for the company name and respective CIK code in order to correctly iterate through the edgar module parameters.
