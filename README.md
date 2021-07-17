@@ -49,6 +49,6 @@ Below are a few highlights:
 ### Model Performance
 The cumulative return of the long non-negative changing sentiment firms and short the increased negative sentiment changing firms was nearly 10% over the 5-year investment horizon.
 
-![alt text](images/sector_return_curves.png)
+![alt text](images/yearly_barchart_comps.png)
 
 
