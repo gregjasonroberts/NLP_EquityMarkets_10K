@@ -37,6 +37,7 @@ Packages: pandas, numpy, statsmodels, sklearn, matplotlib, NLTK, spaCy, beautifu
 Below are a few highlights:
 
 ![alt text](images/GICS_subindustry.png)
+![alt text](images/return_curve_by_month.png)
 ![alt text](images/sector_barchart.png)
 
 
