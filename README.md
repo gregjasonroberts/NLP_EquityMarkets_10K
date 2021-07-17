@@ -1,6 +1,6 @@
 
 # Alpha Generation and NLP Analysis in the Equity Markets
-Applying NLP framework to study intrinsic risk associated with 10K filings risk disclosures from S&amp;P500 companies. 
+Applying NLP framework to study intrinsic risk associated with 10K filings and related risk disclosures from S&amp;P500 companies. 
 
 ### Overview
 
