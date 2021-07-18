@@ -52,6 +52,9 @@ The cumulative return of the long non-negative changing sentiment firms and shor
 
 ![image](https://user-images.githubusercontent.com/51973755/126044782-ea6f2f8a-3b2e-49c0-aee2-8e7676e7c2fa.png)
 
+![image](https://user-images.githubusercontent.com/51973755/126052105-6020f2f0-99f8-4015-805a-e8786ed0a646.png)
+
+
 ![alt text](images/yearly_barchart_comps.png)
 
 
