@@ -50,7 +50,7 @@ Below are a few highlights:
 ### Model Performance
 The cumulative return of the long non-negative changing sentiment firms and short the increased negative sentiment changing firms, the "spread" averaged 13% over the 5-year investment horizon, comparable to the S&P500 and exceeded the relative sharpe ratio as a result of a lower volatility.
 
-![image](https://user-images.githubusercontent.com/51973755/126044782-ea6f2f8a-3b2e-49c0-aee2-8e7676e7c2fa.png)
+![image](https://user-images.githubusercontent.com/51973755/126403602-4c6e558c-b124-4a09-b3af-45511f14c059.png)
 
 ![image](https://user-images.githubusercontent.com/51973755/126052105-6020f2f0-99f8-4015-805a-e8786ed0a646.png)
 
