@@ -48,7 +48,7 @@ Below are a few highlights:
 * Applied cosine similarity on the TDIF vectorized dataset for the yearly comparison for each respective company's parsed 10K filing.
 
 ### Model Performance
-The cumulative return of the long non-negative changing sentiment firms and short the increased negative sentiment changing firms, the "spread" averaged 13% over the 5-year investment horizon, comparable to the S&P500 and exceeded the relative sharpe ratio as a result of a lower volatility.
+The cumulative return of the long non-negative changing sentiment firms and short the increased negative sentiment changing firms, the "spread" averaged 8% over the 5-year investment horizon, underperforming that of the S&P500 by 5% however significantly exceeded the relative sharpe ratio as a result of a lower volatility.
 
 ![image](https://user-images.githubusercontent.com/51973755/126403602-4c6e558c-b124-4a09-b3af-45511f14c059.png)
 
